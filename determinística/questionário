@@ -1,0 +1,56 @@
+Para cada caso apresentado acima (determinístico, estocástico, discreto e contínuo) de um
+exemplo diferente de modelo/simulação que represente cada um destes casos.
+
+        Determinístico :-
+            é um modelo/simulação que, para um conjunto de valores de entrada, sempre nos retorna o mesmo
+            resultado, por exemplo, um modelo que verifica a evolução da velocidade de uma partícula ao longo do tempo,
+            dada uma acelaração e uma velocidade inicial.
+
+        Estocástico :-
+            é um modelo/simulação que nem sempre nos retorna o mesmo resultado para um mesmo conjutno de entradas.
+            Um exemplo é uma simulação do percurso de um carro, porém toda bifurcação temos 50% de chance de ir para
+            cada uma das rotas. 
+
+        Discreto :-
+            é um modelo onde o intermédio entre os intervalos não nos interessa muito. Como por exemplo uma simulação que
+            determina a velocidade final de uma partícula ao longo do tempo, dada uma acelaração e uma velocidade inicial.
+
+        Contínuo :-
+            é um modelo onde o intermédio entre os intervalos nos são interessantes, como no caso supracitado do modelo determinístico,
+            pois queremos saber a velocidade da partícula em todos os momentos até o final.
+
+Um modelo deve representar fielmente todos os aspectos do sistema que ele representa?
+Justifique a sua resposta.
+
+        O modelo existe para representar um sistema, se essa representação não for fiel o modelo não
+        estará cumprindo com sua função e não será um sistema valido para ser utilizado numa simulação,
+        por exemplo.
+
+Indique, pelo menos, três formas diferentes de se apresentar os resultados de uma simulação e de
+exemplos de aplicação.
+
+        Gráfico :-
+            Podemos utilizar o gráfico para mostrar informações de evolução, por exemplo, no modelo contínuo que simula a
+            velocidade de uma partícula. Nessa situação o grafico seria mais interessante, pois teriamos a informacao da
+            velocidade dado o momento da simulação.
+        
+        Tabela :-
+            Podemos utilizar a tabela para modelos discretos, onde teriamos a informação cruzada de entradas x retorno.
+
+        Texto :-
+            Da para ser utilizado em todos os casos.
+
+Dadas as definições acima, como você classifica o problema ilustrado no exemplo? Justifique sua
+resposta.
+
+        É um modelo estocástico, pois temos duas variáveis aleatórias envolvidas, o intervalo de chegada de clientes e o tempo
+        de beber a bebida. E também é um modelo contínuo, pois se deseja estudar o modelo em todos os momentos e verificar
+        possíveis alterações no sistema.
+
+Um computador é uma máquina discreta. Como é possível fazer uma simulação de um sistema
+contínuo utilizando um equipamento discreto?
+
+        Isso tudo é possivel por conta de aproximações numéricas e discretizações dos conjuntos infinitos, por exemplo,
+        em um modelo que analisa algo que evolui em função do tempo, não iremos utilizar todos os valores possíveis de tempo,
+        até porque a variável tempo é uma variável contínua, ou seja, em um intervalo definido podemos obter infinitos valores
+        para a mesma.

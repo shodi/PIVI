@@ -1,0 +1,1 @@
+A velocidade final da partícula, após 9 segundos, é de 23.00 m/s
